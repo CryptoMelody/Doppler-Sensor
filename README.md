@@ -12,5 +12,7 @@ The example of the connection:
 For those people who just cannot see the picture:
 
 CDS -- None(We do not plug this pin into the board)
+
 VIN - 5V  or 3V3 -- 3V3
+
 GND -- GND
