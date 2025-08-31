@@ -1,8 +1,6 @@
-int rcw = 9;
-int led = 11;
+int rcw = 2;
 void setup() {
  pinMode(rcw, INPUT);
- pinMode(led, OUTPUT);
 Serial.begin(9600);
 }
 
@@ -11,9 +9,10 @@ void loop() {
   Serial.print("Hz= ");
   Serial.println(val);
   if(val > 0){
-   digitalWrite(led, HIGH);
+   Serial.println("The movement detected")
   }
   else {
-    digitalWrite(led, LOW);
+    Serial.println("Nothing")
   }
 }
+
